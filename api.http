@@ -6,3 +6,13 @@ Content-Type: application/json
   "details": "Um evento para quem é apaixonado por batata",
   "maximumAttendees": 350
 }
+
+###
+
+POST http://localhost:3333/events/4c5ed90c-db19-4c99-971c-51e5536a1835/attendees
+Content-Type: application/json
+
+{
+  "name": "Victor Santos",
+  "email": "victorhgsantos99@gmail.com"
+}
